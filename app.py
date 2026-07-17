@@ -497,4 +497,4 @@ def load_and_validate_csv(uploaded_file):
     df = df.sort_values("DateTime").reset_index(drop=True)
 
     if len(df) < 5:
-        return None, "CSV must contain at least 5 valid rows of O
+        return None, "CSV must contain at least 5 valid rows of OHLC data."
