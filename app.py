@@ -24,7 +24,7 @@ st.set_page_config(
     page_icon="📈",
     layout="centered",
 
-    initial_sidebar_state="expanded",
+        initial_sidebar_state="collapsed",
 )
 
 CUSTOM_CSS = ""
