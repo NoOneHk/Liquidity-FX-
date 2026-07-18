@@ -27,7 +27,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-CUSTOM_CSS = """
+# CUSTOM_CSS = """
 <style>
     .main { background-color: #0e1117; }
     .stApp { background: linear-gradient(180deg, #0b0e14 0%, #0e1117 100%); }
