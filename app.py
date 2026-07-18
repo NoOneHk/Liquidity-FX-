@@ -27,10 +27,8 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# CUSTOM_CSS = """
-<style>
-    .main { background-color: #0e1117; }
-    .stApp { background: linear-gradient(180deg, #0b0e14 0%, #0e1117 100%); }
+CUSTOM_CSS = ""
+
     h1, h2, h3 { font-family: 'Helvetica Neue', sans-serif; letter-spacing: -0.5px; }
     .app-header {
         padding: 1.2rem 1.5rem; border-radius: 14px;
