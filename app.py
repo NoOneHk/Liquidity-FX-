@@ -29,8 +29,6 @@ st.set_page_config(
 
 CUSTOM_CSS = ""
 
-st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
-
 # =============================================================================
 # DATABASE LAYER (SQLite) — extended schema
 # =============================================================================
