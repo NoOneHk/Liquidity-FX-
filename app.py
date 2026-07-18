@@ -29,52 +29,6 @@ st.set_page_config(
 
 CUSTOM_CSS = ""
 
-    h1, h2, h3 { font-family: 'Helvetica Neue', sans-serif; letter-spacing: -0.5px; }
-    .app-header {
-        padding: 1.2rem 1.5rem; border-radius: 14px;
-        background: linear-gradient(135deg, #1a1f2b 0%, #11141c 100%);
-        border: 1px solid #2a2f3a; margin-bottom: 1.5rem;
-    }
-    .app-header h1 { margin: 0; font-size: 1.8rem; color: #f5f6fa; }
-    .app-header p { margin: 0.25rem 0 0 0; color: #9aa4b2; font-size: 0.95rem; }
-    .metric-card {
-        background: #151923; border: 1px solid #262b38; border-radius: 12px;
-        padding: 1rem 1.1rem; text-align: center;
-    }
-    .metric-card .label {
-        color: #8b93a5; font-size: 0.75rem; text-transform: uppercase;
-        letter-spacing: 0.06em; margin-bottom: 0.35rem;
-    }
-    .metric-card .value { font-size: 1.45rem; font-weight: 700; color: #f5f6fa; }
-    .metric-positive { color: #34d399 !important; }
-    .metric-negative { color: #f87171 !important; }
-    section[data-testid="stSidebar"] { background-color: #0b0e14; border-right: 1px solid #1f232d; }
-    .stButton>button {
-        background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
-        color: white; border: none; border-radius: 8px;
-        padding: 0.6rem 1.2rem; font-weight: 600; width: 100%;
-    }
-    .stButton>button:hover { background: linear-gradient(135deg, #7577f5 0%, #5b52ee 100%); color: white; }
-    .journal-entry {
-        background: #151923; border: 1px solid #262b38; border-radius: 10px;
-        padding: 0.9rem 1.1rem; margin-bottom: 0.7rem;
-    }
-    .stTextArea textarea { background-color: #11141c; color: #e5e7eb; border: 1px solid #2a2f3a; }
-    .asset-badge {
-        display: inline-block; background: #1f2937; color: #a5b4fc;
-        border: 1px solid #374151; border-radius: 999px; padding: 0.15rem 0.7rem;
-        font-size: 0.75rem; margin-right: 0.4rem; margin-bottom: 0.4rem;
-    }
-    .broker-card {
-        background: #11141c; border: 1px solid #262b38; border-radius: 10px;
-        padding: 0.8rem; margin-bottom: 0.6rem;
-    }
-    .risk-note {
-        background: #1c1f2a; border-left: 3px solid #6366f1; border-radius: 6px;
-        padding: 0.6rem 0.8rem; font-size: 0.83rem; color: #b7bfcc; margin-top: 0.5rem;
-    }
-</style>
-"""
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
 # =============================================================================
