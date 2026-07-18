@@ -33,7 +33,8 @@ CUSTOM_CSS = ""
 # DATABASE LAYER (SQLite) — extended schema
 # =============================================================================
 
-DB_PATH = "trading_journal.db"
+import os
+DB_PATH = os.path.join("/tmp", "trading_journal.db")
 
 
 def get_connection():
