@@ -22,7 +22,8 @@ from anthropic import Anthropic
 st.set_page_config(
     page_title="AI Trading Journal & Backtester Pro",
     page_icon="📈",
-    layout="wide",
+    layout="centered",
+
     initial_sidebar_state="expanded",
 )
 
